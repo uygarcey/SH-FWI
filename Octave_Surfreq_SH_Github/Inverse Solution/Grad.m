@@ -16,14 +16,9 @@ V=[Crs.V;Sds.V;Inr.V];
 M=sparse(I,J,V);
 % Solve Linear System and Calculate displacement field for true model
 [Rhs] = Rhs_Mul_Shot(int,f);
-% [Rhs] = Rhs_Shot(int,f);
-%if(int.nsrc < 8)
+
 U_true=mldivide(M,Rhs);
-%else
-%opts.nthreads = 12;
-%opts.grain = 32;
- %U_true = spqr_solve(M,Rhs,opts);
-%end
+
  D_true=S'*U_true;
 
 % Build coefficient matrix
@@ -46,14 +41,9 @@ DM=sparse(I,J,DV);
 % Solve Linear System and Calculate displacement field for current model
 [Rhs] = Rhs_Mul_Shot(int,f);
 
-% [Rhs] = Rhs_Shot(int,f);
-%if(int.nsrc < 8)
+
 U_initial=mldivide(M,Rhs);
-%else
-%opts.nthreads = 12;
-%opts.grain = 32;
-%U_initial= spqr_solve(M,Rhs,opts);
-%end
+
 
 % Adjoint
 
@@ -65,13 +55,10 @@ U_initial=mldivide(M,Rhs);
 
 
  %Calculate adjoint wave field
- %if(int.nsrc < 8)
+
   V_adjoint=mldivide(M,Adj_Rhs);
-%else
-%opts.nthreads = 12;
-%opts.grain = 32;
-%V_adjoint = spqr_solve(M,Adj_Rhs,opts);
-% end
+
+
  % Gradient
 
 % Zero lag cross correlation of  forward and adjoint wave field
@@ -90,6 +77,7 @@ G=real(sum((DM*U_initial).*(V_adjoint),2));
  Lb.norm = .5*(norm( (D_initial-D_true),'fro')^2);
 
 end
+
 
 
 
