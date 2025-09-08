@@ -11,7 +11,7 @@ int.sd=3;
 % Corner and Side Names of Calculation Domain
 %[NW,N,NE,W,C,E,SW,S,SE]
 
-%% Corner and Side Names of 9-point Stencil and Indexing them
+% Corner and Side Names of 9-point Stencil and Indexing them
     %UL=(zz-2)*nx+ (xx-1); / (zz-1,xx-1) Upper Left
     %  U=(zz-2)*nx + xx;    / ((zz-1,xx)Upper
     %  UR=(zz-2)*nx + (xx+1); / (zz-1,xx+1) Upper Right
@@ -166,6 +166,7 @@ Sds.I=[I_W;I_N;I_S;I_E];
 Sds.J=[J_W;J_N;J_S;J_E];
 Sds.V=[V_W;V_N;V_S;V_E];
 end
+
 
 
 
