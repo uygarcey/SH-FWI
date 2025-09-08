@@ -65,7 +65,7 @@ yk = zeros(n,m);
 
 
 
- while (iter < maxit) %(normest(g) > tol)&&  %convergence criteria will be change
+ while (iter < maxit) %(normest(g) > tol)&&  %convergence criteria will be changed
 
    if iter==1
       [Lb0]=fh(m0);
@@ -117,7 +117,7 @@ sk0 = x1-x0;
  m1 = (reshape(x1,int.nx,int.nz))';
  % Calculate new gradient and norm
 [Lb1]=fh(m1);
-disp('Non-normalized data residual')
+disp(' Data residual ( is not normalized')
 norm=Lb1.norm
  disp('Iteration')
    iter = iter + 1
@@ -155,5 +155,6 @@ title(c,'Vs (m/s)')
 % axis equal;
 % axis tight;
 %end
+
 
 
