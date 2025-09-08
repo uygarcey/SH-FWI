@@ -1,4 +1,4 @@
-# Surfreq__SH
+# SH-full-waveform-inversion
 Surfreq_SH  is a  frequency domain 2-D SH wave  Full-waveform Inversion (FWI) package implemented in OCTAVE. 9-Point stencil finite difference is used for forward solution. Limited-memory BFGS approach is employed for inverse solution. A detailed description of the numerical methods used in in Surfreq will be uploaded.
 # True__Model
 
