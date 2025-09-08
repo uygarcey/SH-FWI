@@ -1,8 +1,9 @@
-%This function returns Inr structure which holds  interior coefficients
- %of the coefficient matrix and,  row and column numbers  corresponding these coefficients
+%This function returns Inr structure which contains corner coefficients
+ %of the coefficient matrix and,  row and column numbers of them
+ 
 function[Inr]= Interior(int,pml)
 
-% Numbers of nodes which are different from zero
+% Non zero node numbers
 %Interior Nodes=(nx-2)*(nz-2)*int.stencil
 %Upper+Lower Nodes=(nz-2)*(int.stencil-int.sd)*2
 %Right + Left Nodes=(nx-2)*(int.stencil-int.sd)*2
@@ -87,6 +88,7 @@ Inr.I=reshape(repmat(J_C,1,int.stencil)',index_IN,1);
 Inr.J=reshape([J_UL,J_U,J_UR,J_L,J_C,J_R,J_BL,J_B,J_BR]',index_IN,1);
 Inr.V=reshape([V_UL,V_U,V_UR,V_L,V_C,V_R,V_BL,V_B,V_BR].',index_IN,1);
 end
+
 
 
 
