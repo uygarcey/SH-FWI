@@ -1,8 +1,8 @@
 # Surfreq_SH
-Surfreq_SH  is a  frequency domain 2-D SH wave  Full-waveform Inversion (FWI) package implemented in OCTAVE. 9-Point stencil finite difference is used for forward solution. Limited-memory BFGS approach is employed for inverse solution. A detailed description of the numerical methods used in in Surfreq will be uploaded.
-# True__Model
+Surfreq_SH  is a  frequency domain 2-D SH wave  Full-waveform Inversion (FWI) package implemented in OCTAVE. 9-Point stencil finite difference is used for forward solution.Implementation of forward solution differs from another repository in terms of building coefficient matrix.The coefficient matrix is created without "for loops" which increases computational time. First, All elements of this matrix is fully vectorized  and then are combanined into a sparse matrix. For inverse solution, the Limited-memory BFGS approach is employed . A detailed description of the numerical methods used in in Surfreq will be uploaded.
 
-<img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />
+# True__Modelr
+<img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />R
 
 # Estimated__Model
 
