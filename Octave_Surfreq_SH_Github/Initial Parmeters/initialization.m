@@ -1,5 +1,5 @@
 % This function returns "int" structure which contains all parameters needed for Forward and Inverse solutions
-%The idea of putting initial parameters in a structure was got from Germania
+%The idea of putting initial parameters in a structure was got from Germania repository
 
 function[ int] = initialization(fmax,G,f,vs)
 
@@ -58,6 +58,7 @@ int.srcz= int.pml_thc+1;%All sources are  on the surface(...just begining of the
 
 
 end
+
 
 
 
