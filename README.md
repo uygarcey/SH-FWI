@@ -4,6 +4,6 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 # True_S_Wave_Velocity_Model
 <img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />R
 
-# Estimated_Model_S_Wave_Velocity_Model
+# Estimated_S_Wave_Velocity_Model
 
 <img width="773" height="396" alt="Estimated_Model" src="https://github.com/user-attachments/assets/2d6a7859-f797-4b72-9395-8f8d731a21cf" />
