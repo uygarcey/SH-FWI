@@ -1,5 +1,5 @@
 %This function returns Crs structure which contains corner coefficients
- %of the coefficient matrix and,  row and column numbers of them
+ %of the coefficients matrix with row and column numbers of them
 function[Crs]= Corners(int,pml)
 int.sd=3; %Square root of 9
 b=pml.b;
@@ -137,6 +137,7 @@ Crs.DV=double([DV_NW;DV_NE;DV_SW;DV_SE]);
  Crs.V=[V_NW;V_NE;V_SW;V_SE];
 
 end
+
 
 
 
