@@ -44,13 +44,13 @@ m0=model.initial;
 rho0=rho_initial;
 
 [a0,b0]=size(m0);
-% Frequencies were selecting according to Sirgue ve Pratt (2004)
+% Frequencies were selected according to Sirgue ve Pratt (2004)
    freq=[8 15.0000   20.6897   28.5375   39.3621   54.2926   74.8864 80 ];
 
  tol=1e-3;
 c=0;
 
-% Convert initial model matrix to vector
+% Convert initial model matrix to a vector
 x0=reshape(m0,[a0*b0,1]);
 % Function handel
 fh=@(m0)func(int,freq,model.true, rho_true,Smp,m0,rho_initial);
@@ -65,14 +65,14 @@ yk = zeros(n,m);
 
 
 
- while (iter < maxit) %(normest(g) > tol)&&  %convergence criterias will be change
+ while (iter < maxit) %(normest(g) > tol)&&  %convergence criteria will be change
 
    if iter==1
       [Lb0]=fh(m0);
        alpha0=1/2;
     [alpha]= Wolfe(int,fh,x0,Lb0,alpha0,Lb0.grad);
         x1 = x0 + (Lb0.grad*alpha);
-        %%convert vector x1 to matrix
+        %convert vector x1 to a matrix
   m1 = (reshape(x1,int.nx,int.nz))';
  [Lb1]=fh(m1);
 
@@ -155,4 +155,5 @@ title(c,'Vs (m/s)')
 % axis equal;
 % axis tight;
 %end
+
 
