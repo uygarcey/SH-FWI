@@ -1,5 +1,5 @@
 %This function calculates gardient and data residuals for each frequency.
-%for this, parallel libary of Matlab is used.
+%for this, parallel libary of OCTAVE is used.
 function [Lb1]=func(int,f,vs, rho,S,vsint,rhoint)
 % initialization of data residuals  (e) and gardient(g)
  g=zeros(int.nx*int.nz,1);
@@ -12,6 +12,7 @@ e=e+Lb.norm;
 end
  Lb1.grad=g;
  Lb1.norm=e;
+
 
 
 
