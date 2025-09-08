@@ -1,8 +1,8 @@
-%This function returns Sds structure which holds  side coefficients
- %of the coefficient matrix and,  row and column numbers  corresponding these coefficients
+%This function returns Sds structure which contains corner coefficients
+ %of the coefficient matrix and,  row and column numbers of them
 function[Sds]= Sides(int,pml)
 int.sd=3;
-%% Numbers of nodes which are different from zero
+% Non-zero node numbers
 %Interior Nodes=(nx-2)*(nz-2)*int.stencil
 %Upper+Lower Nodes=(nz-2)*(int.stencil-int.sd)*2
 %Right + Left Nodes=(nx-2)*(int.stencil-int.sd)*2
@@ -166,5 +166,6 @@ Sds.I=[I_W;I_N;I_S;I_E];
 Sds.J=[J_W;J_N;J_S;J_E];
 Sds.V=[V_W;V_N;V_S;V_E];
 end
+
 
 
