@@ -1,4 +1,4 @@
-%This function returns Sds structure which contains corner coefficients
+%This function returns Sds structure which contains side part
  %of the coefficients matrix with row and column numbers of them
 function[Sds]= Sides(int,pml)
 int.sd=3;
@@ -166,6 +166,7 @@ Sds.I=[I_W;I_N;I_S;I_E];
 Sds.J=[J_W;J_N;J_S;J_E];
 Sds.V=[V_W;V_N;V_S;V_E];
 end
+
 
 
 
