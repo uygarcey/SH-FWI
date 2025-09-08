@@ -1,5 +1,5 @@
 function [alpha] = Wolfe(int,fh,x0,Lb,alpha0,p)
-% Simple Wolfe linesearch, adapted from
+% Simple Wolfe linesearch, adapted from the pseudo code given in
 % Lecture notes:High resolution geophysicsal imaging using full waveform
 % modeling and inversion
 %L.Metivier,2022
@@ -52,4 +52,5 @@ while finish
 
 
 end
+
 
