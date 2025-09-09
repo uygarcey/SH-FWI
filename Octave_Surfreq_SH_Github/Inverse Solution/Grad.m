@@ -1,4 +1,5 @@
-% This function calculates gradient for each frquency
+% This function calculates gradient for each frquency.
+%Developed by Uygar Ceyhan.
 function [Lb]=Grad(int,f,vs, rho,S,vsint,rhoint)
 
 [pml]= Pml_Damp_Lie( int, vs, rho,f );
@@ -77,6 +78,7 @@ G=real(sum((DM*U_initial).*(V_adjoint),2));
  Lb.norm = .5*(norm( (D_initial-D_true),'fro')^2);
 
 end
+
 
 
 
