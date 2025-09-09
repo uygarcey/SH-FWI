@@ -1,5 +1,5 @@
-%This function returns Inr structure which contains Interior part
- %of the coefficients matrix with row and column numbers of them
+%This function returns Inr structure which contains Interior part of the coefficients matrix with row and column numbers of them
+%Developed by Uygar Ceyhan.
  
 function[Inr]= Interior(int,pml)
 
@@ -88,6 +88,7 @@ Inr.I=reshape(repmat(J_C,1,int.stencil)',index_IN,1);
 Inr.J=reshape([J_UL,J_U,J_UR,J_L,J_C,J_R,J_BL,J_B,J_BR]',index_IN,1);
 Inr.V=reshape([V_UL,V_U,V_UR,V_L,V_C,V_R,V_BL,V_B,V_BR].',index_IN,1);
 end
+
 
 
 
