@@ -1,4 +1,5 @@
 %This code returns Analytical Solution of SH wave
+%Developed by Uygar Ceyhan
 
 function [Ush_anly,R] = Analytical(int,vs,rho)
 
@@ -16,5 +17,6 @@ Green = const*H01;
 Ush_anly=Green*ricker;
 
 end
+
 
 
