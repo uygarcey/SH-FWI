@@ -1,4 +1,5 @@
 % Calculate two-loop recursion
+% Adapted by Uygar Ceyhan
 function H = H(g,sk,yk,scaling)
 
 
@@ -27,5 +28,6 @@ function H = H(g,sk,yk,scaling)
     %
     H=r;
 end % end
+
 
 
