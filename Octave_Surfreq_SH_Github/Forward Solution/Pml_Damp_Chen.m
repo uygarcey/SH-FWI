@@ -2,7 +2,8 @@
 % Chen, Z., Cheng, D.,Feng,W.,and Wu,T. 2013.An optimal 9-point finite difference
 % scheme for the Helmholtz equation with PML. International Journal Of Numerical
 % Analysis and Modeling,10,389-410.
-%In order to to create Pml_Damp_Chen function, The PML function(written in C language) in Germania repository was adapted to OCTAVE language.(No for loops are necessary in this version)
+%In order to to create Pml_Damp_Chen function, The PML function in Germania repository  ((written in C language))was adapted to OCTAVE language.(No for loops are necessary in this version)
+%Developed by Uygar Ceyhan
 function[pml]= Pml_Damp_Chen( int, vs, rho,f )
 
 freq = 2.0*pi*f;
@@ -79,6 +80,7 @@ end
 pml.idh2=1.0/int.dx^2;
 
 end
+
 
 
 
