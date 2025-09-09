@@ -1,4 +1,5 @@
-%This function calculates gardient and data residuals for each frequency.
+%This function returns gardient and data residuals for each frequency.
+%Developed by Uygar Ceyhan.
 
 function [Lb1]=func(int,f,vs, rho,S,vsint,rhoint)
 % initialization of data residuals  (e) and gardient(g)
@@ -12,6 +13,7 @@ e=e+Lb.norm;
 end
  Lb1.grad=g;
  Lb1.norm=e;
+
 
 
 
