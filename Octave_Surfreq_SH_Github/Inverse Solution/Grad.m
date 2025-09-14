@@ -15,7 +15,7 @@ V=[Crs.V;Sds.V;Inr.V];
 
 %M=sparse2(I,J,V);
 M=sparse(I,J,V);
-% Solve Linear System and Calculate displacement field for true model
+% Solve Linear System and Calculate displacement fields for true model
 [Rhs] = Rhs_Mul_Shot(int,f);
 
 U_true=mldivide(M,Rhs);
@@ -78,6 +78,7 @@ G=real(sum((DM*U_initial).*(V_adjoint),2));
  Lb.norm = .5*(norm( (D_initial-D_true),'fro')^2);
 
 end
+
 
 
 
