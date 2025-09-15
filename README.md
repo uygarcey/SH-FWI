@@ -5,7 +5,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 
 # FORWARD SOLUTION
 ## Used article is  Chen, Z., Cheng, D.,Feng,W.,and Wu,T. 2013.An optimal 9-point finite difference  scheme for the Helmholtz equation with PML. International Journal Of Numerical  Analysis and Modeling,10,389-410.
-# Just try to fallow formulas and  derive it yourself.
+# Just try to fallow formulas and  derive it yourself. Descriptions will be provided later
 
 # 
  ![surfreq_sh](https://github.com/user-attachments/assets/dac4a8a3-08af-4071-92bd-569b848f0c74)  
@@ -20,6 +20,17 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 
 #
 ![3](https://github.com/user-attachments/assets/2eb77008-905e-422c-a367-f13dbd426115)      
+
+#
+![5](https://github.com/user-attachments/assets/badaf931-9949-4542-a7a4-5ea2a76b1bbe)
+
+#
+![6](https://github.com/user-attachments/assets/059b74bc-394d-4c2d-b16a-1c618723f2be)
+#
+![8](https://github.com/user-attachments/assets/52866555-2508-4e3c-a25a-f3d9ee884074)
+
+
+
 
 
 
