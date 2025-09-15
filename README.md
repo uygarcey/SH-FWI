@@ -8,7 +8,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 <img width="681" height="555" alt="image" src="https://github.com/user-attachments/assets/329896e3-d7ca-48ee-b8b3-e05ab22e0eb7" />
 
 # 
-  b ((A_4 (U_6-U_5 )-A_3 (U_5-U_4 ))/〖∆h〗^2 )                                                                                        +  (1-b)/2 ((A_2 (U_3-U_2 )-A_1 (U_2-U_1 ))/〖∆h〗^2 +(A_6 (U_9-U_8 )-A_5 (U_8-U_7 ))/〖∆h〗^2 )                      +b ((B_4 (U_8-U_5 )-B_3 (U_5-U_2 ))/〖∆h〗^2 )                                                                           +(1-b)/2 ((B_2 (U_7-U_4 )-B_1 (U_4-U_1 ))/〖∆h〗^2 +( B_6 (U_9-U_6 )-B_5 (U_6-U_3 ))/〖∆h〗^2 )+Cω^2 ρ(x,z)(cU_5+d/4 (U_8+U_6+U_2+U_4 )+e/4 (U_9+U_3+U_7+U_1 ))=f_y/〖∆h〗^2                                                                                                                                              
+                                                                                                                                          
 
 # Perfectly matched layer Cheng et. al. (2013)
 
