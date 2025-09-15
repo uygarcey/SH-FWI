@@ -108,7 +108,8 @@ Just try to fallow main formulas and  derive it yourself. Descriptions will be p
 
 
 #
-![inverse_13](https://github.com/user-attachments/assets/cfc3f7ee-52f9-4d9e-8262-d5a77a7d3373)
+![test_test](https://github.com/user-attachments/assets/9d05f586-fae1-4c19-a130-eb6e668c8fa3)
+
 
 # L-BFGS Nocedal 1980
 #
