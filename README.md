@@ -28,6 +28,15 @@ Just try to fallow formulas and  derive it yourself. Descriptions will be provid
 ![6](https://github.com/user-attachments/assets/059b74bc-394d-4c2d-b16a-1c618723f2be)
 #
 ![8](https://github.com/user-attachments/assets/52866555-2508-4e3c-a25a-f3d9ee884074)
+#
+![10](https://github.com/user-attachments/assets/2ea2507e-2904-4ed9-8677-491b1b344ee5)
+#
+![11](https://github.com/user-attachments/assets/932ca98b-3c20-4391-8eb3-74dc3b5b2f17)
+#
+![12](https://github.com/user-attachments/assets/3eb81755-6115-4631-914e-4b971f35d229)
+#
+
+
 
 
 
