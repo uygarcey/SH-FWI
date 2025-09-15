@@ -48,6 +48,8 @@ Just try to fallow formulas and  derive it yourself. Descriptions will be provid
 # 
 ![16](https://github.com/user-attachments/assets/ffb23986-e978-4ee6-8754-888554343553)
 
+#The last thing is left. Derivation of cofeficent corresponding cells in 9-point stencil. It wll be soon..
+
                                                                                                                                           
 
 # Perfectly matched layer Cheng et. al. (2013)
