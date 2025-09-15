@@ -5,7 +5,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 
 # FORWARD SOLUTION
 The article used for forwad solution  is  Chen, Z., Cheng, D.,Feng,W.,and Wu,T. 2013.An optimal 9-point finite difference  scheme for the Helmholtz equation with PML. International Journal Of Numerical  Analysis and Modeling,10,389-410.
-Just try to fallow main formulas and  derive it yourself. Descriptions will be provided later.
+Just try to fallow main formulas and  derive them yourself. Descriptions will be provided later.
 
 # 
  ![surfreq_sh](https://github.com/user-attachments/assets/dac4a8a3-08af-4071-92bd-569b848f0c74)  
@@ -66,7 +66,7 @@ The last thing is left. Derivation of cofeficenst corresponding each cell in 9-p
 # INVERSE SOLUTION
 
 The main article used for inverse solution is Pratt, G.,R., Shin,C. and Hicks,G.,j.1998. Gauss-Newton and full Newton methods in frequency-space seismic waveform inversion. Geophysical Journal International,133(2),341-362.
-Just try to fallow main formulas and  derive it yourself. Descriptions will be provided later.
+Just try to fallow main formulas and  derive them yourself. Descriptions will be provided later.
 #
 ![İnverse_1](https://github.com/user-attachments/assets/8cb38c71-741d-4477-9576-2a33c6ace53f)
 
