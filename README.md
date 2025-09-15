@@ -3,7 +3,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 
 (Note: The Pml_Damp_Chen function was created by using the Germania package, originally written in C by Daniel Köhn. In this OCTAVE version, "for loops" are not necessary. The misfit and gradient calculations are based on the SimpleFWI developed by Tristan van Leeuwen; however, unlike in SimpleFWI, the derivative matrix is used in the gradient calculation in this package. The optLBFGS-master was used to implement two loop recursion part of the Limited-Memory BFGS approach.)
 
-# FORWARD SOLUTİON
+# FORWARD SOLUTION
 # Nine Point Stencil
 <img width="681" height="555" alt="image" src="https://github.com/user-attachments/assets/329896e3-d7ca-48ee-b8b3-e05ab22e0eb7" />
 
