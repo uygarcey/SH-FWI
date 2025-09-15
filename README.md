@@ -17,7 +17,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 ![Lie](https://github.com/user-attachments/assets/ea0a8560-52cc-47ca-8e5d-d7a88f4483b7)
 
 
-
+# INVERSE SOLUTION
 # True_S_Wave_Velocity_Model
 <img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />
 
