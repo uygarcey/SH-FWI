@@ -9,7 +9,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 # PML Cheng
 <img width="750" height="541" alt="image" src="https://github.com/user-attachments/assets/7ffbe4f7-268b-495f-bbb5-3150cf60b6b1" />
 # PML Lie
-<img width="750" height="541" alt="image" src="https://github.com/user-attachments/assets/1a04820e-cb14-4612-a620-bcbbff167943" />
+<img width="760" height="617" alt="image" src="https://github.com/user-attachments/assets/ab2c56a5-798f-44a1-8cb7-aff1b7761394" />
 
 
 # True_S_Wave_Velocity_Model
