@@ -35,18 +35,19 @@ Just try to fallow formulas and  derive it yourself. Descriptions will be provid
 #
 ![12](https://github.com/user-attachments/assets/3eb81755-6115-4631-914e-4b971f35d229)
 #
-
-
-
-
-
-
-
+![13](https://github.com/user-attachments/assets/778f00ab-4a43-494b-8def-e376ec16d374)
+#
+![14](https://github.com/user-attachments/assets/f175002f-81d7-46ab-9212-e525a0cc978b)
+#
+![15](https://github.com/user-attachments/assets/6981763e-ab8c-4f6b-bf57-e421207b90a5)
+#
 
 # Nine Point Stencil
 <img width="681" height="555" alt="image" src="https://github.com/user-attachments/assets/329896e3-d7ca-48ee-b8b3-e05ab22e0eb7" />
 
 # 
+![16](https://github.com/user-attachments/assets/ffb23986-e978-4ee6-8754-888554343553)
+
                                                                                                                                           
 
 # Perfectly matched layer Cheng et. al. (2013)
