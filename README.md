@@ -5,7 +5,7 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 
 # FORWARD SOLUTION
 The article used for forwad solution  is  Chen, Z., Cheng, D.,Feng,W.,and Wu,T. 2013.An optimal 9-point finite difference  scheme for the Helmholtz equation with PML. International Journal Of Numerical  Analysis and Modeling,10,389-410.
-Just try to fallow formulas and  derive it yourself. Descriptions will be provided later.
+Just try to fallow main formulas and  derive it yourself. Descriptions will be provided later.
 
 # 
  ![surfreq_sh](https://github.com/user-attachments/assets/dac4a8a3-08af-4071-92bd-569b848f0c74)  
@@ -64,6 +64,50 @@ The last thing is left. Derivation of cofeficenst corresponding each cell in 9-p
 
 
 # INVERSE SOLUTION
+
+The main article used for inverse solution is Pratt, G.,R., Shin,C. and Hicks,G.,j.1998. Gauss-Newton and full Newton methods in frequency-space seismic waveform inversion. Geophysical Journal International,133(2),341-362.
+Just try to fallow main formulas and  derive it yourself. Descriptions will be provided later.
+#
+![İnverse_1](https://github.com/user-attachments/assets/8cb38c71-741d-4477-9576-2a33c6ace53f)
+
+#
+![Inverse_2](https://github.com/user-attachments/assets/237abc54-4bab-4ffa-93cb-ab59117dcd9d)
+
+#
+![Inverse_3](https://github.com/user-attachments/assets/53eba224-4ec0-4951-81e9-3897d78477fb)
+
+#
+![Inverse_4](https://github.com/user-attachments/assets/84202507-a324-42a0-b025-5ec87a1ca2a9)
+
+#
+![inverse_5](https://github.com/user-attachments/assets/bbe1519f-e199-4e6d-ad04-b4b6611218d9)
+
+#
+![inverse_6](https://github.com/user-attachments/assets/1fe0ec7c-ac08-4d2d-a38a-a796b318b2f9)
+
+#
+![inverse_7](https://github.com/user-attachments/assets/a0763a25-2cc6-4303-8595-ff805dba7312)
+
+#
+![inverse_8](https://github.com/user-attachments/assets/e2804778-439c-440b-89eb-c8657d970a1b)
+
+#
+![inverse_9](https://github.com/user-attachments/assets/809a3e12-9f94-4809-a692-83592e98bcdf)
+
+#
+![inverse_10](https://github.com/user-attachments/assets/785f01b5-11ea-4edc-b56b-c7ef43d1a9c1)
+
+#
+![inverse_11](https://github.com/user-attachments/assets/7e910aa7-a954-445c-b7d9-016d394cc960)
+
+#
+![inverse_12](https://github.com/user-attachments/assets/03da5841-9c8c-4cf2-bab9-544065fdc142)
+
+
+#
+![inverse_13](https://github.com/user-attachments/assets/cfc3f7ee-52f9-4d9e-8262-d5a77a7d3373)
+
+
 # True_S_Wave_Velocity_Model
 <img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />
 
