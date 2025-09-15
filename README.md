@@ -75,6 +75,9 @@ Just try to fallow main formulas and  derive it yourself. Descriptions will be p
 
 #
 ![Inverse_3](https://github.com/user-attachments/assets/53eba224-4ec0-4951-81e9-3897d78477fb)
+#
+![test](https://github.com/user-attachments/assets/d91628e7-f931-4118-8b6b-6497ddbd184e)
+
 
 #
 ![Inverse_4](https://github.com/user-attachments/assets/84202507-a324-42a0-b025-5ec87a1ca2a9)
