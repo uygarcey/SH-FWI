@@ -49,8 +49,7 @@ Just try to fallow main formulas and  derive them yourself. Descriptions will be
 ![16](https://github.com/user-attachments/assets/ffb23986-e978-4ee6-8754-888554343553)
 
 #
-The last thing is left. Derivation of cofeficenst corresponding each cell in 9-point stencil.
-
+The last thing is left. Derivation of coefficients corresponding each cell in 9-point stencil.
                                                                                                                                           
 
 # Perfectly matched layer Cheng et. al. (2013)
