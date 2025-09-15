@@ -7,9 +7,12 @@ This is a  frequency domain 2-D SH wave  Full-Waveform Inversion (FWI) package i
 # Nine Point Stencil
 <img width="681" height="555" alt="image" src="https://github.com/user-attachments/assets/329896e3-d7ca-48ee-b8b3-e05ab22e0eb7" />
 # PML Cheng
-<img width="750" height="541" alt="image" src="https://github.com/user-attachments/assets/7ffbe4f7-268b-495f-bbb5-3150cf60b6b1" />
+![chen](https://github.com/user-attachments/assets/1bdd2e91-066b-49b3-95f5-26325ebf02d9)
+
 # PML Lie
-<img width="760" height="617" alt="image" src="https://github.com/user-attachments/assets/ab2c56a5-798f-44a1-8cb7-aff1b7761394" />
+
+![Lie](https://github.com/user-attachments/assets/ea0a8560-52cc-47ca-8e5d-d7a88f4483b7)
+
 
 
 # True_S_Wave_Velocity_Model
