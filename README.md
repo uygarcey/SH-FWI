@@ -8,7 +8,7 @@ The article used for forwad solution  is  Chen, Z., Cheng, D.,Feng,W.,and Wu,T. 
 Just try to fallow main formulas and  derive them yourself. Descriptions will be provided later.
 
 # 
- ![surfreq_sh](https://github.com/user-attachments/assets/dac4a8a3-08af-4071-92bd-569b848f0c74)  
+ ![surfreq_sh](https://github.com/user-attachments/assets/dac4a8a3-08af-4071-92bd-569b848f0c74) #1# 
 
  # 
 
