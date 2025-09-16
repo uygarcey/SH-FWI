@@ -188,7 +188,7 @@ Just try to fallow main formulas and  derive them yourself. Descriptions will be
 
 
 #
-The last things are wolfe conditions
+The last things are wolfe conditions.
 
 # True_S_Wave_Velocity_Model
 <img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />
