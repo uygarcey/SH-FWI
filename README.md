@@ -18,7 +18,7 @@ The article used for forwad solution  is  Chen, Z., Cheng, D.,Feng,W.,and Wu,T. 
 
 # INVERSE SOLUTION
 
-The main article used for inverse solution is Pratt, G.,R., Shin,C. and Hicks,G.,j.1998. Gauss-Newton and full Newton methods in frequency-space seismic waveform inversion. Geophysical Journal 
+The main article used for inverse solution is Pratt, G.,R., Shin,C. and Hicks,G.,j.1998. Gauss-Newton and full Newton methods in frequency-space seismic waveform inversion. Geophysical Journal. 
 
 # True_S_Wave_Velocity_Model
 <img width="753" height="381" alt="True Model" src="https://github.com/user-attachments/assets/b013d866-d75a-421c-962f-c249d128e51e" />
