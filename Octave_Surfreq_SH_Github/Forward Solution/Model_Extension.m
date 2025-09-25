@@ -1,5 +1,5 @@
 % This function adds PML layer to all directions of initial model domain.
-%Developed by Uygar Ceyhan
+%
 function [ vs, rho, int ] = Model_Extension( int, vs, rho )
 
 
@@ -19,5 +19,6 @@ function [ vs, rho, int ] = Model_Extension( int, vs, rho )
       int.nxz = int.nx * int.nz;
 %
 end
+
 
 
