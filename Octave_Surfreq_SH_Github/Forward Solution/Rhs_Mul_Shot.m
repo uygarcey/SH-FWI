@@ -1,5 +1,5 @@
 % This function returns Right Hand Side
-%Developed by Uygar Ceyhan
+%
 function [ Rhs] = Rhs_Mul_Shot(int,f)
 int.mf=f; %current frequncy
 Rhs = sparse(double(int.nz*int.nx),double(int.nsrc));
@@ -15,6 +15,7 @@ f=int.mf;
 Rhs(sub2ind([int.nx*int.nz,int.nsrc],src_index(1:int.nsrc),1:int.nsrc)) = ricker1./int.dx^2;
 
 end
+
 
 
 
