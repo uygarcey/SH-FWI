@@ -1,6 +1,6 @@
 % PML. Reference paper
 %Lei,W.,Liu,Y.,Li,G.,Zhu,S.,Chen,G., and Li,G. 2023.2D frequency-domain finite difference acoustic wave modeling using optimized perfectlly matched layers.Geophysics, 88, F1-F13.
-%Developed by Uygar Ceyhan
+%
 function [ pml ] = Pml_Damp_Lie( int, vs, rho,f )
 
 
@@ -96,6 +96,7 @@ pml.idh2=1.0/int.dx^2;
 
 
 end
+
 
 
 
